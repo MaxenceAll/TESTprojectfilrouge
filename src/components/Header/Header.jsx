@@ -1,5 +1,3 @@
-import "./Header.css";
-
 import LOGOdark from "../../assets/Logos/LOGOdark.png";
 
 import { FaRegUserCircle, FaPenNib, FaInfoCircle , FaSun , FaMoon} from "react-icons/fa";

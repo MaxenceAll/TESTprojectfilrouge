@@ -1,7 +1,5 @@
 import { Form, useNavigation } from "react-router-dom";
 
-import "./Login.css";
-
 function Login() {
   const navigation = useNavigation();
 

@@ -1,5 +1,3 @@
-import './Error.css'
-
 import { Link, useRouteError } from "react-router-dom/dist";
 
 function Error() {

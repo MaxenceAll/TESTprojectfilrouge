@@ -1,12 +1,11 @@
-import Carouselhome from "../../components/Carousel/Carousel";
-import "./Home.css";
+import Carousel from "../../components/Carousel/Carousel";
 
 function Home() {
   return (
     <div className="home-container">
 
       <div className="carousel--container">
-        <Carouselhome />
+        <Carousel/>
       </div>
 
       <div className="home-bottom--container">
