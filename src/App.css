@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
-}
+/* 
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Righteous', cursive; 
+*/
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+:root {
+  /* light */
+  --primary--txt: black;
+  --primary--bg : white;
+  --secondary--bg : #495579;
+  --tertiary--bg : #AAAABB;
+  --other--primary--bg: #C69749;
+  --other--secondary--bg: #FF8C00 ;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  --primary--btn : #4290dd;
+  --secondary--btn : #195FA3;
 
-.App-link {
-  color: #61dafb;
-}
+  /* dark */
+  --primary--txt: white;
+  --primary--bg : black;
+  --secondary--bg : #282A3A;
+  --tertiary--bg : #09090F;
+  --other--primary--bg: #735F32;
+  --other--secondary--bg: #FFDAB9;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  --primary--btn : #195FA3;
+  --secondary--btn : #4290dd;
 }
